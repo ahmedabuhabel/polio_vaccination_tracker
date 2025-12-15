@@ -1,16 +1,16 @@
-# polio_vaccination_tracker
+# Polio Vaccination Tracker
 
-A new Flutter project.
+A Flutter application designed to track polio vaccinations. This application is built to assist in monitoring and managing vaccination records efficiently.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- **Vaccination Tracking**: Keep track of polio vaccination records.
+- **RTL Support**: Designed with Right-to-Left (RTL) text direction support for Arabic.
+- **State Management**: Utilizes GetX for efficient state management and navigation.
+- **Local Storage**: Uses GetStorage for fast local data persistence.
 
-A few resources to get you started if this is your first Flutter project:
+## Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Framework**: Flutter
+- **Language**: Dart
+- **State Management**: [GetX](https://pub.dev/packages/get)
