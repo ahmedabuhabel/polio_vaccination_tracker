@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:polio_vaccination_tracker/supervisor/constants.dart';
 import 'package:polio_vaccination_tracker/supervisor/controller/first_screen_controller.dart';
-import 'package:polio_vaccination_tracker/supervisor/screens/main_screen.dart';
+import 'package:polio_vaccination_tracker/supervisor/screens/supervisor_screen.dart';
 
 class FirstScreen extends StatelessWidget {
   FirstScreen({super.key});
@@ -67,7 +67,7 @@ class FirstScreen extends StatelessWidget {
               ElevatedButton(
                 style: ElevatedButton.styleFrom(backgroundColor: kPrimaryColor),
                 onPressed: () {
-                  Get.to(() => MainScreen(count: controller.count));
+                  Get.to(() => SupervisorScreen(count: controller.count));
                 },
                 child: const SizedBox(
                   width: double.infinity,

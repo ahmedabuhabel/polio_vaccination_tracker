@@ -45,28 +45,4 @@ class TeamsController extends GetxController {
     int totalOver5 = calculateSum(childrenOver5Controllers);
     return totalUnder5 + totalOver5 + totalNewBorn;
   }
-
-  void disposeControllers() {
-    for (var controller in newBornControllers) {
-      controller.dispose();
-    }
-    for (var controller in childrenUnder5Controllers) {
-      controller.dispose();
-    }
-    for (var controller in childrenOver5Controllers) {
-      controller.dispose();
-    }
-    for (var controller in recievedBottlesController) {
-      controller.dispose();
-    }
-    for (var controller in usedBottlesControllers) {
-      controller.dispose();
-    }
-    for (var controller in unusedBottlesControllers) {
-      controller.dispose();
-    }
-    for (var controller in returnedBottlesControllers) {
-      controller.dispose();
-    }
-  }
 }
