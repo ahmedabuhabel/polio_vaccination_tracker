@@ -13,7 +13,6 @@ class RegistrarScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.deepPurple[300],
       appBar: RegistrarAppbar(controller: controller),
       body: Obx(() {
         return SingleChildScrollView(
